@@ -195,7 +195,7 @@ def gioco():
             if evento.type == pg.QUIT:
                 pg.quit()
                 exit()
-            if evento.type == pg.KEYDOWN:  # Cambia K_SPACE in KEYDOWN
+            if evento.type == pg.KEYDOWN:  # switcha K_SPACE in KEYDOWN
                 if evento.key == pg.K_SPACE:
                     if stato_gioco == 'INIZIO':
                         stato_gioco = 'GIOCO'
